@@ -1,0 +1,46 @@
+.subHeader{
+  background: #27272A;
+  border:none;
+  border-top: 1px solid #414144;
+  border-bottom: 1px solid #414144;
+  display: flex;
+  justify-content: flex-start;
+  padding:0px 20px;
+  &__nav{
+    display:flex;
+    justify-content: center;
+    border-right: 1px solid #414144;
+    &_name{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #A1A1AA;
+      margin:8px 0 0 0;
+    }
+    &_subName{
+      margin: 0 0 8px 0;
+      text-align:start;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      color: #A1A1AA
+    }
+    &_icon{
+      margin:10px 7px 10px 62px;
+    }
+  }
+  &_name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border-right: 1px solid #414144;
+    padding: 11px 15px 12px 15px;
+  }
+}

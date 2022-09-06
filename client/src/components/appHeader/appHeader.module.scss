@@ -1,0 +1,61 @@
+.header{
+  display:flex;
+  justify-content: space-between;
+  background-color: #27272A;
+  padding:0 20px;
+  &__button{
+    border:none;
+    background-color: transparent;
+    color: #A1A1AA;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding:0px;
+  }
+  &__button_active{
+    border:none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color:#fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding:0px;
+    margin-right:28px;
+  }
+  &__avatar{
+    display:flex;
+    justify-content: center;  
+    &_name{
+      margin:0;
+      color:#fff;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      margin:14px 0;
+    }
+    &_img{
+      margin:8px;
+    }
+    &_more{
+      margin:10px 0;
+    }
+    
+  }
+  &_buttons{
+    display:flex;
+    justify-content: center;
+  }
+  &_appsIcon{
+    margin:10px 20px 10px 0px;
+  }
+  &_replyIcon{
+    margin:10px 30px 10px 0px;
+  }
+}

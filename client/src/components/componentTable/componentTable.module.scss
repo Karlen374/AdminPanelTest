@@ -1,0 +1,21 @@
+.headRow:hover{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.1px;
+  color: #fff;
+  cursor:pointer;
+}
+.editRow{
+  background-color: inherit;
+  border: 1px solid #414144;
+  border-radius: 6px;
+  width: 100%;
+  height: 33px;
+  color: #fff;
+}
+.changeCursor:hover{
+  cursor:pointer;
+}

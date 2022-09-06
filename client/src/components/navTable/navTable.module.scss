@@ -1,0 +1,31 @@
+.nav{
+  background-color: #27272A;
+  display: inline-block;
+  min-height: 992px;
+  border-right: 1px solid #414144;;
+  &__item{
+    text-align: start;
+    color: #fff;
+    display:flex;
+    padding:0px 110px 0px 22px;
+    &_icon{
+      margin:7.75px 16.75px 7.75px 0px;
+    }
+    &_text{
+      margin:8px 0;
+    }
+  }
+  &__item_active{
+    text-align: start;
+    background-color: #A1A1AA;
+    color:#fff;
+    display:flex;
+    padding:0px 110px 0px 22px;
+    &_icon{
+      margin:7.75px 16.75px 7.75px 0px;
+    }
+    &_text{
+      margin:8px 0;
+    }
+  }
+}
